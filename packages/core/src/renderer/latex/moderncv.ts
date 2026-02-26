@@ -347,7 +347,7 @@ ${fontList
         showIfNotEmpty(headline, `\\title{${headline}}`),
         showIfNotEmpty(phone, `\\phone[mobile]{${phone}}`),
         showIfNotEmpty(email, `\\email{${email}}`),
-        this.renderHomepage(url),
+        this.renderHomePage(url),
       ],
       '\n'
     )
@@ -359,7 +359,7 @@ ${fontList
    * moderncv's `\homepage` command expects the URL without scheme and optionally
    * accepts `[http]` as a protocol override.
    */
-  private renderHomepage(url: string | undefined): string {
+  private renderHomePage(url: string | undefined): string {
     if (isEmptyValue(url)) {
       return ''
     }
