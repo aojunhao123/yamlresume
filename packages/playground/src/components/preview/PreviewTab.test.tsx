@@ -43,7 +43,6 @@ describe(getTabIcon, () => {
   })
 
   it('renders default icon for unknown engine', () => {
-    // @ts-expect-error Testing fallback
     const { container } = render(getTabIcon('unknown'))
     expect(container.querySelector('.tabler-icon-file-text')).toBeDefined()
   })

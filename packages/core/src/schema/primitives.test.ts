@@ -911,6 +911,7 @@ describe('UrlSchema', () => {
   it('should return a url if it is valid', () => {
     const tests = [
       'https://www.google.com',
+      'http://www.google.com',
       'https://yamlresume.dev',
       'https://ppresume.com',
       'https://github.com/yamlresume/yamlresume',
@@ -935,6 +936,12 @@ describe('UrlSchema', () => {
         url: `https://t.tt/${'a'.repeat(256)}`,
         error: {
           errors: ['URL should be 256 characters or less.'],
+        },
+      },
+      {
+        url: 'ftp://example.com',
+        error: {
+          errors: ['URL is invalid.'],
         },
       },
     ]

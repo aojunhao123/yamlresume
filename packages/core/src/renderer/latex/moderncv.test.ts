@@ -518,7 +518,21 @@ describe('ModerncvBase', () => {
       expect(result).toContain(`\\title{${headline}}`)
       expect(result).toContain(`\\email{${email}}`)
       expect(result).toContain(`\\phone[mobile]{${phone}}`)
-      expect(result).toContain(`\\homepage{${url}}`)
+      expect(result).toContain('\\homepage{example.com}')
+    })
+
+    it('should render homepage with http protocol', () => {
+      const name = 'John Doe'
+      const url = 'http://example.com'
+
+      resume.content.basics.name = name
+      resume.content.basics.url = url
+
+      renderer = new ModerncvBankingRenderer(resume, layoutIndex)
+      const result = renderer.renderBasics()
+
+      expect(result).toMatch(new RegExp(`^\\\\name{${name}}{}`))
+      expect(result).toContain('\\homepage[http]{example.com}')
     })
 
     it('should render name field even name is empty', () => {

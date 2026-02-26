@@ -347,10 +347,36 @@ ${fontList
         showIfNotEmpty(headline, `\\title{${headline}}`),
         showIfNotEmpty(phone, `\\phone[mobile]{${phone}}`),
         showIfNotEmpty(email, `\\email{${email}}`),
-        showIfNotEmpty(url, `\\homepage{${url}}`),
+        this.renderHomepage(url),
       ],
       '\n'
     )
+  }
+
+  /**
+   * Render the homepage for moderncv.
+   *
+   * moderncv's `\homepage` command expects the URL without scheme and optionally
+   * accepts `[http]` as a protocol override.
+   */
+  private renderHomepage(url: string | undefined): string {
+    if (isEmptyValue(url)) {
+      return ''
+    }
+
+    const match = url.match(/^(https?):\/\/(.+)$/i)
+
+    if (!match) {
+      return `\\homepage{${url}}`
+    }
+
+    const [, protocol, rest] = match
+
+    if (protocol.toLowerCase() === 'http') {
+      return `\\homepage[http]{${rest}}`
+    }
+
+    return `\\homepage{${rest}}`
   }
 
   /**

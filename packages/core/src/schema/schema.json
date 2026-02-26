@@ -137,9 +137,10 @@
             },
             "url": {
               "title": "[optional] URL",
-              "description": "A valid URL with maximum length of 256 characters or `null`.",
+              "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
               "examples": [
                 "https://yamlresume.dev",
+                "http://yamlresume.dev",
                 "https://ppresume.com",
                 "https://github.com/yamlresume/yamlresume",
                 "https://linkedin.com/in/xiaohanyu1988",
@@ -148,9 +149,10 @@
               "anyOf": [
                 {
                   "title": "[optional] URL",
-                  "description": "A valid URL with maximum length of 256 characters or `null`.",
+                  "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                   "examples": [
                     "https://yamlresume.dev",
+                    "http://yamlresume.dev",
                     "https://ppresume.com",
                     "https://github.com/yamlresume/yamlresume",
                     "https://linkedin.com/in/xiaohanyu1988",
@@ -365,9 +367,10 @@
               },
               "url": {
                 "title": "[optional] URL",
-                "description": "A valid URL with maximum length of 256 characters or `null`.",
+                "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                 "examples": [
                   "https://yamlresume.dev",
+                  "http://yamlresume.dev",
                   "https://ppresume.com",
                   "https://github.com/yamlresume/yamlresume",
                   "https://linkedin.com/in/xiaohanyu1988",
@@ -376,9 +379,10 @@
                 "anyOf": [
                   {
                     "title": "[optional] URL",
-                    "description": "A valid URL with maximum length of 256 characters or `null`.",
+                    "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                     "examples": [
                       "https://yamlresume.dev",
+                      "http://yamlresume.dev",
                       "https://ppresume.com",
                       "https://github.com/yamlresume/yamlresume",
                       "https://linkedin.com/in/xiaohanyu1988",
@@ -564,9 +568,10 @@
                   },
                   "url": {
                     "title": "[optional] URL",
-                    "description": "A valid URL with maximum length of 256 characters or `null`.",
+                    "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                     "examples": [
                       "https://yamlresume.dev",
+                      "http://yamlresume.dev",
                       "https://ppresume.com",
                       "https://github.com/yamlresume/yamlresume",
                       "https://linkedin.com/in/xiaohanyu1988",
@@ -575,9 +580,10 @@
                     "anyOf": [
                       {
                         "title": "[optional] URL",
-                        "description": "A valid URL with maximum length of 256 characters or `null`.",
+                        "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                         "examples": [
                           "https://yamlresume.dev",
+                          "http://yamlresume.dev",
                           "https://ppresume.com",
                           "https://github.com/yamlresume/yamlresume",
                           "https://linkedin.com/in/xiaohanyu1988",
@@ -1278,9 +1284,10 @@
                   },
                   "url": {
                     "title": "[optional] URL",
-                    "description": "A valid URL with maximum length of 256 characters or `null`.",
+                    "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                     "examples": [
                       "https://yamlresume.dev",
+                      "http://yamlresume.dev",
                       "https://ppresume.com",
                       "https://github.com/yamlresume/yamlresume",
                       "https://linkedin.com/in/xiaohanyu1988",
@@ -1289,9 +1296,10 @@
                     "anyOf": [
                       {
                         "title": "[optional] URL",
-                        "description": "A valid URL with maximum length of 256 characters or `null`.",
+                        "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                         "examples": [
                           "https://yamlresume.dev",
+                          "http://yamlresume.dev",
                           "https://ppresume.com",
                           "https://github.com/yamlresume/yamlresume",
                           "https://linkedin.com/in/xiaohanyu1988",
@@ -1457,9 +1465,10 @@
                   },
                   "url": {
                     "title": "[optional] URL",
-                    "description": "A valid URL with maximum length of 256 characters or `null`.",
+                    "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                     "examples": [
                       "https://yamlresume.dev",
+                      "http://yamlresume.dev",
                       "https://ppresume.com",
                       "https://github.com/yamlresume/yamlresume",
                       "https://linkedin.com/in/xiaohanyu1988",
@@ -1468,9 +1477,10 @@
                     "anyOf": [
                       {
                         "title": "[optional] URL",
-                        "description": "A valid URL with maximum length of 256 characters or `null`.",
+                        "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                         "examples": [
                           "https://yamlresume.dev",
+                          "http://yamlresume.dev",
                           "https://ppresume.com",
                           "https://github.com/yamlresume/yamlresume",
                           "https://linkedin.com/in/xiaohanyu1988",
@@ -1586,9 +1596,10 @@
                   },
                   "url": {
                     "title": "[optional] URL",
-                    "description": "A valid URL with maximum length of 256 characters or `null`.",
+                    "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                     "examples": [
                       "https://yamlresume.dev",
+                      "http://yamlresume.dev",
                       "https://ppresume.com",
                       "https://github.com/yamlresume/yamlresume",
                       "https://linkedin.com/in/xiaohanyu1988",
@@ -1597,9 +1608,10 @@
                     "anyOf": [
                       {
                         "title": "[optional] URL",
-                        "description": "A valid URL with maximum length of 256 characters or `null`.",
+                        "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                         "examples": [
                           "https://yamlresume.dev",
+                          "http://yamlresume.dev",
                           "https://ppresume.com",
                           "https://github.com/yamlresume/yamlresume",
                           "https://linkedin.com/in/xiaohanyu1988",
@@ -1914,9 +1926,10 @@
                   },
                   "url": {
                     "title": "[optional] URL",
-                    "description": "A valid URL with maximum length of 256 characters or `null`.",
+                    "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                     "examples": [
                       "https://yamlresume.dev",
+                      "http://yamlresume.dev",
                       "https://ppresume.com",
                       "https://github.com/yamlresume/yamlresume",
                       "https://linkedin.com/in/xiaohanyu1988",
@@ -1925,9 +1938,10 @@
                     "anyOf": [
                       {
                         "title": "[optional] URL",
-                        "description": "A valid URL with maximum length of 256 characters or `null`.",
+                        "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                         "examples": [
                           "https://yamlresume.dev",
+                          "http://yamlresume.dev",
                           "https://ppresume.com",
                           "https://github.com/yamlresume/yamlresume",
                           "https://linkedin.com/in/xiaohanyu1988",
@@ -2082,9 +2096,10 @@
                   },
                   "url": {
                     "title": "[optional] URL",
-                    "description": "A valid URL with maximum length of 256 characters or `null`.",
+                    "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                     "examples": [
                       "https://yamlresume.dev",
+                      "http://yamlresume.dev",
                       "https://ppresume.com",
                       "https://github.com/yamlresume/yamlresume",
                       "https://linkedin.com/in/xiaohanyu1988",
@@ -2093,9 +2108,10 @@
                     "anyOf": [
                       {
                         "title": "[optional] URL",
-                        "description": "A valid URL with maximum length of 256 characters or `null`.",
+                        "description": "A valid http(s) URL with maximum length of 256 characters or `null`.",
                         "examples": [
                           "https://yamlresume.dev",
+                          "http://yamlresume.dev",
                           "https://ppresume.com",
                           "https://github.com/yamlresume/yamlresume",
                           "https://linkedin.com/in/xiaohanyu1988",
@@ -3474,9 +3490,10 @@
     "url": {
       "id": "url",
       "title": "URL",
-      "description": "A valid URL with maximum length of 256 characters.",
+      "description": "A valid http(s) URL with maximum length of 256 characters.",
       "examples": [
         "https://yamlresume.dev",
+        "http://yamlresume.dev",
         "https://ppresume.com",
         "https://github.com/yamlresume/yamlresume",
         "https://linkedin.com/in/xiaohanyu1988",

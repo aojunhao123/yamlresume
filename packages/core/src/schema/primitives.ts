@@ -411,14 +411,19 @@ export const OrganizationSchema = (name: string) =>
  * A zod schema for a url.
  */
 export const UrlSchema = z
-  .url({ message: 'URL is invalid.' })
+  .url({
+    protocol: /^https?$/,
+    hostname: z.regexes.domain,
+    message: 'URL is invalid.',
+  })
   .max(256, { message: 'URL should be 256 characters or less.' })
   .meta({
     id: 'url',
     title: 'URL',
-    description: 'A valid URL with maximum length of 256 characters.',
+    description: 'A valid http(s) URL with maximum length of 256 characters.',
     examples: [
       'https://yamlresume.dev',
+      'http://yamlresume.dev',
       'https://ppresume.com',
       'https://github.com/yamlresume/yamlresume',
       'https://linkedin.com/in/xiaohanyu1988',
