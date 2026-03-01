@@ -5,10 +5,12 @@
     "outDir": "dist",
     "jsx": "react-jsx",
     "paths": {
-      "@/*": ["src/*"],
-      "@yamlresume/core": ["../core/src/index.ts"]
+      "@/*": ["src/*"]
     },
     "importHelpers": false
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "references": [
+    { "path": "../core" }
+  ]
   }
