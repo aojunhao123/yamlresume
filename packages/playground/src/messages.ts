@@ -22,17 +22,32 @@
  * IN THE SOFTWARE.
  */
 
-// Components
-export * from './components'
+export interface PlaygroundTooltipMessages {
+  copy: string
+  undo: string
+  redo: string
+  clear: string
+  print: string
+  openInNewTab: string
+  download: string
+}
 
-// Constants
-export * from './constants'
+export interface PlaygroundMessages {
+  tooltips: PlaygroundTooltipMessages
+}
 
-// Hooks
-export * from './hooks'
+export interface PlaygroundMessageOverrides {
+  tooltips?: Partial<PlaygroundTooltipMessages>
+}
 
-// Messages
-export * from './messages'
-
-// Utils
-export * from './utils'
+export const DEFAULT_PLAYGROUND_MESSAGES: PlaygroundMessages = {
+  tooltips: {
+    copy: 'Copy',
+    undo: 'Undo',
+    redo: 'Redo',
+    clear: 'Clear',
+    print: 'Print',
+    openInNewTab: 'Open in New Tab',
+    download: 'Download',
+  },
+}
